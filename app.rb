@@ -13,5 +13,9 @@ class App < Sinatra::Base
   get '/boytime' do
     "It is now boy time."
   end
+  
+  get '/karlie_is_coming_again' do
+    "Hello World"
+  end
 
 end
